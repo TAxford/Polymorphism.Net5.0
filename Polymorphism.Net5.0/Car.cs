@@ -18,6 +18,17 @@ namespace Polymorphism.Net5._0
             this.HP = hp;
             this.Color = color;
         }
+
+        //method
+        public void ShowDetails()
+        {
+            Console.WriteLine("HP: " + HP + " color: " + Color);
+        }
+
+        public void Repair()
+        {
+            Console.WriteLine("Car was repaired");
+        }
         
     }
 }
