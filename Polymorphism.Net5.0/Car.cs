@@ -12,6 +12,12 @@ namespace Polymorphism.Net5._0
         public int HP { get; set; }
         public string Color { get; set; }
 
+        //constructor
+        public Car(int hp, string color)
+        {
+            this.HP = hp;
+            this.Color = color;
+        }
         
     }
 }
