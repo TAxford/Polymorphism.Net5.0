@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Polymorphism.Net5._0
 {
@@ -6,7 +7,11 @@ namespace Polymorphism.Net5._0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var cars = new List<Car>
+            {
+                new Audi(200, "blue", "A4"),
+                new BMW(250, "red", "M3")
+            };
         }
     }
 }
