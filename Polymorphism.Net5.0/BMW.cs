@@ -8,5 +8,8 @@ namespace Polymorphism.Net5._0
 {
     internal class BMW
     {
+        //property
+        private string brand = "BMW";
+        public string Model { get; set; }
     }
 }
